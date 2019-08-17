@@ -20,4 +20,6 @@ from skills import add_skill
 
 @add_skill(r'시간표')
 def get_timetable(message):
-    return TextSendMessage(text='시간표는 https://www.pycon.kr/timetable/talks 에서 확인해주세요')
+    return TextSendMessage(
+        text='시간표는 https://www.pycon.kr/timetable/talks 에서 확인해주세요'
+    )
